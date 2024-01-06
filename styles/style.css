@@ -108,6 +108,10 @@ nav a {
 }
 
 /* main section styles */
+.section-main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 
 /* about section styles */
 .section-about {
@@ -115,4 +119,27 @@ nav a {
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  text-align: center;
+}
+
+.info-title {
+  color: #757575;
+  font-size: 20px;
+  margin-bottom: 0;
+  line-height: 30px; /* 150% */
+}
+.info-description {
+  margin-top: 2px;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
 }
