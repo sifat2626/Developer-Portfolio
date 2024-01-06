@@ -69,9 +69,9 @@ main section {
 /* header related styles */
 .header {
   background-color: #fff8f3;
-  background: url("../images/header_bg.png");
+  background: url("../images/header_bg.png"), url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: bottom right, top left;
 }
 
 .banner {
